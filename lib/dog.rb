@@ -6,4 +6,12 @@ class Dog
   def name #getter
     @name 
   end
+  
+  def breed=(breed) #setter
+    @breed = breed
+  end
+  
+  def breed
+    @breed
+  end
 end
